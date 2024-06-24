@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Validation</title>
+    <!-- Link to Google Fonts for custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the form elements -->
+    <div class="container">
+        <h1>User Input Validation</h1>
+        <!-- Input for first name -->
+        <input type="text" id="firstName" placeholder="First Name">
+        <!-- Input for last name -->
+        <input type="text" id="lastName" placeholder="Last Name">
+        <!-- Input for zip code -->
+        <input type="text" id="zipCode" placeholder="Zip Code">
+        <!-- Button to submit form -->
+        <button onclick="validateInputs()">Submit</button>
+        <!-- Container for messages -->
+        <div id="warning"></div>
+        <div id="message"></div>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* Basic reset */
+body, h1, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Custom font and background */
+body {
+    /* Font for text in container with validation process */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background picture for webpage */
+    background-image:url('baseball.jpg'); 
+    /* style for background image */
+    background-size: cover;
+    /* Flexible siing  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Center the form on the page */
+.container {
+    /* color of container for form with opacity to reveal background picture while being legeible */
+    background: rgba(255, 255, 255, 0.8);
+    /* sizing parameters for form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* Dimensions for input fields and buttons */
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+/* Success Message style*/
+#message {
+    color: green;
+    font-weight: bold;
+}
+/* Error Message Style */
+#warning {
+    color: red;
+    font-weight: bold;
+}
